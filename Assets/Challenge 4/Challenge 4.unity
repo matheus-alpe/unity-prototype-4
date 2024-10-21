@@ -545,7 +545,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5036a60f22d8542ca830e4578804462b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  smokeParticle: {fileID: 0}
+  smokeParticlePrefab: {fileID: 845902664}
   hasPowerup: 0
+  canUseSpace: 1
   powerupIndicator: {fileID: 1427939658}
   powerUpDuration: 5
 --- !u!1 &680832294
@@ -760,6 +763,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 811463574}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &845902664 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4392870381195481524, guid: 6562db3a873684fa9b7da3aef8329d82, type: 3}
+  m_PrefabInstance: {fileID: 258741155}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &905566321
 GameObject:
   m_ObjectHideFlags: 0
